@@ -43,6 +43,8 @@ const correctBall = () => {
   }
 };
 
+correctBall();
+
 const resetButton = () => {
   answer.innerHTML = 'Escolha uma cor';
   balls.innerHTML = '';
