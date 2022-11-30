@@ -4,7 +4,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#section-ball {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .ball {
   height: 100px;
   width: 100px;
+  border-radius: 50%;
+  margin: 20px;
 }
