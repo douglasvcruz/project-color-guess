@@ -2,17 +2,37 @@
   padding: 0;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 0;
 }
 
-#section-ball {
+body {
+  text-align: center;
+  margin-top: 20px;
+  background-color: cornsilk;
+}
+
+#title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  color: darkslategray;
+  margin-bottom: 20px;
+}
+
+#rgb-color , #answer {
+  margin-bottom: 20px;
+}
+
+#section-circle {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 40px 0;
 }
 
-.ball {
-  height: 100px;
-  width: 100px;
+.circle {
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   margin: 20px;
 }
@@ -20,4 +40,13 @@
 main {
   display: flex;
   flex-direction: column;
+}
+
+#reset-game {
+  background-color: white;
+  display: flex;
+  margin: auto;
+  color: red;
+  font-size: x-large;
+  font-weight: 900;
 }
