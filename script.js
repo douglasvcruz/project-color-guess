@@ -40,7 +40,7 @@ const correctCircle = () => {
         answer.innerHTML = 'Errou! Tente novamente!';
       }
       generateCircles();
-      correctCircle()
+      correctCircle();
     });
   }
 };
