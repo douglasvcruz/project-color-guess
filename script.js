@@ -24,8 +24,7 @@ const generateCircles = () => {
     circles.appendChild(circle);
   }
   const circle = document.querySelectorAll('.circle');
-  rgbColor.innerText =
-    circle[Math.floor(Math.random() * 5)].style.backgroundColor;
+  rgbColor.innerText = circle[Math.floor(Math.random() * 5)].style.backgroundColor;
 };
 
 generateCircles();
